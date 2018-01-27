@@ -22,4 +22,6 @@ public interface IPostService {
     void updatePost(Post post);
 
     void deletePostById(Long id);
+
+    List<Post> getAllPosts();
 }
